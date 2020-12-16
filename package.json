@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rweatherly/CloudTeam.git"
+    "url": "git+https://github.com/rweatherly/Cloudocs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rweatherly/CloudTeam/issues"
+    "url": "https://github.com/rweatherly/Cloudocs/issues"
   },
-  "homepage": "https://github.com/rweatherly/CloudTeam#readme",
+  "homepage": "https://github.com/rweatherly/Cloudocs#readme",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.6",
