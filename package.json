@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google/docsy-example.git"
+    "url": "git+https://github.com/rweatherly/CloudTeam.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/google/docsy-example/issues"
+    "url": "https://github.com/rweatherly/CloudTeam/issues"
   },
-  "homepage": "https://github.com/google/docsy-example#readme",
+  "homepage": "https://github.com/rweatherly/CloudTeam#readme",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.6",
