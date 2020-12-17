@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+# Getting started
+## Setting up workstation for site authoring  
+In VSCode, Clone the project repo `https://github.com/rweatherly/Cloudocs.git`  
+
+Download the latest release of Hugo_extended from their Github page <https://github.com/gohugoio/hugo/releases>, for Windows you can look for the one named `hugo_extended_0.nn.0_Windows-64bit.zip`  
+Extract the executable to a directory and then add that directory to your $PATH. For windows 10 you can follow [these steps](https://gohugo.io/getting-started/installing/#for-windows-10-users) if needed.  
+
+Verify your Path was setup correctly by running the following  command `hugo version`
+=======
 # Docsy Example
 
 [Docsy](https://github.com/google/docsy) is a Hugo theme for technical documentation sites, providing easy site navigation, structure, and more. This **Docsy Example Project** uses the Docsy theme, as well as providing a skeleton documentation structure for you to use. You can either copy this project and edit it with your own content, or use the theme in your projects like any other [Hugo theme](https://gohugo.io/themes/installing-and-using-themes/).
@@ -24,6 +34,7 @@ The theme is included as a Git submodule:
 ▶ git submodule
  a053131a4ebf6a59e4e8834a42368e248d98c01d themes/docsy (heads/master)
 ```
+>>>>>>> parent of 3be1e78... update readme files
 
 If you want to do SCSS edits and want to publish these, you need to install `PostCSS` (not needed for `hugo server`):
 
