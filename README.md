@@ -29,7 +29,7 @@ Once running you should be able to access a local copy of the website at <http:/
 ## Tips and Tricks
 * This site uses the [Blackfriday](https://github.com/russross/blackfriday) Markdown processor, which can be rendered a bit different occasionally when viewing the pages in Github
 * For consistency, and to prevent a few known issues, make sure you have vscode set to use spaces instead of tabs for indents. In VSCode you should set it to use 4 spaces.
-* Google has a pretty good documentation style guide that you can reference, here is a link to the [Highlights](https://developers.google.com/style/highlights)
+* Google has a pretty good [documentation style guide](https://developers.google.com/style) that you can reference, here is a link to the [Highlights](https://developers.google.com/style/highlights).
 
 
 ## References  
