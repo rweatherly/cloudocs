@@ -15,15 +15,18 @@ Hugo Static Site Generator v0.79.0-1415EFDC windows/amd64
 
 
 
-## Running the website locally
+## Running the website locally 
 
 Once you've cloned the site repo, from the repo root folder, run:
 
 ```
 hugo server
 ```
-
 Once running you should be able to access a local copy of the website at <http://localhost:1313>
+
+## TODO List:
+1. Integrate Algolia search
+2. 
 
 
 ## Tips and Tricks
@@ -36,5 +39,3 @@ Once running you should be able to access a local copy of the website at <http:/
 * Hugo Documentation focused themes [here.](https://themes.gohugo.io/tags/documentation/)  
 * The theme that is currently in use can be found [here.](https://themes.gohugo.io/docsy/)
 * Here you can find a [Markdown Cheatsheet](https://github.com/russross/blackfriday) that will help with creating and editing the content.  
-
-
