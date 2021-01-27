@@ -1,0 +1,52 @@
+<div class="row middle-xs m-b-sm">
+  <div class="col-sm-3">
+    <img src="{{ .Site.BaseURL }}/img/spot/spot-training.svg" alt="training" />
+  </div>
+  <div class="col-sm-9 p-a-xs">
+    <p>Get <strong>free training</strong> from an expert through our classes on Kubernetes and Rancher</p>
+    <p><a href="{{ .Site.BaseURL }}/training">Sign Up Now</a></p>
+  </div>
+</div>
+
+<div class="">
+  <h3 class="m-t-0 m-b-sm">Recent Posts</h3>
+  {{ range first 5 (where .Site.Pages "Section" "blog") }}
+      <div class="row aside-item">
+
+
+        {{ if .Params.image }}
+          <div class="thumbnail"><img src="{{ .Params.image }}" alt="{{ .Params.title }}"></div>
+          {{ else }}
+          <div class="thumbmail bg-default p-a-xs"><i class="material-icons">question_answer</i></div>
+        {{end}}
+
+        <div class="col-md aside-info">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ .Date.Format "Jan 02, 2006" }}
+        </div>
+      </div>
+  {{ end }}
+</div>
+
+
+<div class="m-t-sm">
+  <h3 class="m-t-0 m-b-sm">Upcoming Events</h3>
+  <div id="events-list-injected"> </div>
+
+  {{ range first 5 (where .Site.Pages "Section" "events") }}
+      <div class="row aside-item">
+
+
+        {{ if .Params.image }}
+          <div class="thumbnail"><img src="{{ .Params.image }}" alt="{{ .Params.title }}"></div>
+          {{ else }}
+          <div class="thumbmail bg-default p-a-xs"><i class="material-icons">event</i></div>
+        {{end}}
+
+        <div class="col-md aside-info">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ .Date.Format "Jan 02, 2006" }}
+        </div>
+      </div>
+  {{ end }}
+</div>

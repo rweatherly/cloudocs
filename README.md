@@ -1,4 +1,5 @@
 # Getting started
+## Hugo site using Rancher theme (Docsy also availible for testing)
 ## Setting up workstation for site authoring  
 In VSCode, Clone the project repo `https://github.com/rweatherly/Cloudocs.git`  
 

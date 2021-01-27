@@ -1,0 +1,15 @@
+{
+    "name": "rancher-website-theme",
+    "version": "1.0.4",
+    "description": "UI theme used on Rancher Marketing sites",
+    "repository": "https://github.com/rancherlabs/website-theme.git",
+    "author": "Rancher Labs, Inc.",
+    "license": "Apache-2.0",
+    "private": true,
+    "devDependencies": {
+        "normalize-scss": "^7.0.1"
+    },
+    "dependencies": {
+        "@mdi/font": "^4.7.95"
+    }
+}
