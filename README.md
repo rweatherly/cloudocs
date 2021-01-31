@@ -29,7 +29,6 @@ Once running you should be able to access a local copy of the website at <http:/
 1. Integrate Algolia search
 2. 
 
-
 ## Tips and Tricks
 * This site uses the [Blackfriday](https://github.com/russross/blackfriday) Markdown processor, which can be rendered a bit different occasionally when viewing the pages in Github
 * For consistency, and to prevent a few known issues, make sure you have vscode set to use spaces instead of tabs for indents. In VSCode you should set it to use 4 spaces.
@@ -40,3 +39,4 @@ Once running you should be able to access a local copy of the website at <http:/
 * Hugo Documentation focused themes [here.](https://themes.gohugo.io/tags/documentation/)  
 * The theme that is currently in use can be found [here.](https://themes.gohugo.io/docsy/)
 * Here you can find a [Markdown Cheatsheet](https://github.com/russross/blackfriday) that will help with creating and editing the content.  
+
