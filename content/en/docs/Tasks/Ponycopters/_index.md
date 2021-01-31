@@ -1,4 +1,3 @@
-
 ---
 title: "Working with Ponycopters"
 linkTitle: "Working with Ponycopters"
